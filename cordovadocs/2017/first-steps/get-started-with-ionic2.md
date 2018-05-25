@@ -851,7 +851,7 @@ When you tap on a forecast item, nothing happens (for now); that's because we ne
 	viewForecast(item) {
 	  //When the user selects one of the Forecast periods,
 	  //open up the details page for the selected period.
-	  this.nav.push(WeatherDetailPage, { 'forecast': item });
+	  this.navCtrl.push(WeatherDetailPage, { 'forecast': item });
 	}
 	```
 
